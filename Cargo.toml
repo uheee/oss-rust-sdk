@@ -1,7 +1,7 @@
 [package]
 name = "oss-rust-sdk"
-version = "0.2.1"
-authors = ["NoXF <xianyou.cyq@gmail.com>"]
+version = "0.2.2"
+authors = ["NoXF <xianyou.cyq@gmail.com>","Snowind <jinks.tao@gmail.com>"]
 edition = "2018"
 readme = "README.md"
 description = "Aliyun OSS SDK"
@@ -9,14 +9,11 @@ license = "Apache-2.0"
 repository = "https://github.com/NoXF/oss-rust-sdk"
 
 [dependencies]
-reqwest = { version = "0.10.4", features = ["blocking"] }
-base64 = "0.12.1"
+reqwest = { version = "0.11", features = ["blocking"] }
+base64 = "0.12"
 chrono = "0.4"
-rust-crypto = "^0.2"
-log = "0.4.6"
-quick-xml = "0.18.1"
-derive_more = "0.99.5"
-bytes = "0.5.4"
-
-[dev-dependencies]
-tokio = { version = "0.2.20", features = ["full"] }
+rust-crypto = "0.2"
+log = "0.4"
+quick-xml = "0.18"
+derive_more = "0.99"
+bytes = "1"
